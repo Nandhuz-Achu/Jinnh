@@ -18,10 +18,13 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: Lang.WP}, (async (message
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `*Creators Achu&Ajmal*
+    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `*Bot name : Nandhutty*
 
+*CREATORS : Achu&Ajmal*
 
 *Owner number : You can message me with this bot number itself*
+
+*Our public bot group link :*  https://chat.whatsapp.com/EPJw6NwnZtUDbePOJSTF8f
 
 *githublink       https://github.com/Nandhuz-Achu/Nandhutty*
 
