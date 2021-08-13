@@ -20,6 +20,8 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: Lang.WP}, (async (message
 
     await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `*Bot name : Nandhutty*
 
+*Nandhutty V-2 COMMING SOON*
+
 *CREATORS : Achu&Ajmal*
 
 *Owner number : You can message me with this bot number itself*
